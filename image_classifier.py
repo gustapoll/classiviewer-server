@@ -9,7 +9,7 @@ import pandas as pd
 from os import path
 root = path.dirname(path.abspath(__file__))
 
-model = load_model(path.join(root, 'models/0.8732057416267942_1568206179.5820658.h5'))
+model = load_model(path.join(root, '0.8732057416267942_1568206179.5820658.h5'))
 model._make_predict_function() 
 
 def id2label(id):
